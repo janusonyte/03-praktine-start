@@ -88,5 +88,6 @@ a {
 .dark-button:hover {
     background-color: #ffffff;
     color: #000;
+    border: 2px solid #000;
 }
 
