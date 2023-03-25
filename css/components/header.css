@@ -32,5 +32,13 @@
 
 .link {
     text-decoration: none;
-    color:white
+    color:white;
+    border: 2px solid #74C69D;
+    border-radius: 5%;
+    transition: all 0.3s;
+    padding: 10px;
+}
+
+.link:hover {
+    border-color: white;
 }
