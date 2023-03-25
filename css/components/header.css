@@ -1,0 +1,36 @@
+.header-container {  
+    background-color: #74C69D; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;   
+}
+
+.header-row {
+    margin-left: calc(50% - 40vw);
+    margin: 30px 30px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.main-nav {
+    display: flex;  
+    gap: 30px;
+    align-items: end;
+}
+
+.logo {
+    height: 50px;
+    width: 187px;
+    object-fit: contain;
+    object-position: left;   
+}
+
+.link {
+    text-decoration: none;
+    color:white
+}
