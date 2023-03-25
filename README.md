@@ -8,6 +8,8 @@
 
 _website design project_
 
+#### Best viewed on 1440 width screen!
+
 <br>
 
 ## 🌟 About
