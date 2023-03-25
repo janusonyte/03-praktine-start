@@ -60,6 +60,9 @@ p {
     line-height: 125%;
 }
 
+a {
+    text-decoration: none;
+}
 
 .light-button {
     background-color: #ffffff;
@@ -86,3 +89,4 @@ p {
     background-color: #ffffff;
     color: #000;
 }
+
