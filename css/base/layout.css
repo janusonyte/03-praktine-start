@@ -1,4 +1,4 @@
-.hero-container {
+/* .hero-container {
     box-sizing: border-box;
     margin-left: calc(50% - 40vw);
     width: 80vw;
@@ -7,21 +7,33 @@
     align-items: center;
     justify-content: space-around;
     padding-bottom: 5vw;
+} */
+
+.hero-container {
+    min-height: 470px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
 }
 
 .left-col {
-    display: flex; 
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 25px;
-    margin-right: 100px;
-    flex-wrap: wrap;
-    max-width: 416px;;
+    padding-top: 42px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    max-width: 415px;
+    flex-shrink: 1;
 }
 
-.container {
+/* .container {
     width: 100wv;
     background-color: #74C69D;  
+} */
+
+.container {
+    max-width: 1225px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .partner-container {
@@ -50,3 +62,90 @@
     justify-content: space-between;
     gap: 68px;
 }
+
+.hero-img {
+       /* leidžiam elementui augti */
+       flex-grow: 1;
+       /* Kiek leisim spaustis elementui */
+       flex-basis: 410px;
+       /* jei reikia, kad elementas nebūtų didesnis negu... */
+       max-width: 645px;
+       flex-shrink: 1;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.team-img {
+    max-width:100%;
+    padding: 1em;
+}
+
+.main-container {
+    box-sizing: border-box;
+    margin-left: calc(50% - 40vw);
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 5vw;
+
+}
+
+.main-right-col {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+    max-width: 416px;;
+
+}
+
+.main-left-col {
+    padding-top: 42px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    max-width: 415px;
+    flex-shrink: 1;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 68px;
+}
+
+.card-container {
+    /* padding: 2px 16px; */
+    padding: 2em;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+
+
+/* 
+-------------------------
+media
+------------------------- 
+*/
+
+@media screen and (max-width: 749px) {
+    .menu {
+      display: none;
+    }
+
+    .hero-container {
+        justify-content: center;
+    }
+  }
+
