@@ -16,12 +16,13 @@
 
 <body>
 
-    <header class="bg-hero header-container">
+    <header class="bg-hero header-container mobile-header">
         <div class="container header-row">
             <a>
                 <img class="logo" src="img/logo.svg" alt="Logo">
             </a>  
             <nav class="main-nav">
+                <a class="mobile-menu" href=""><img src="./img/menu.svg" alt=""></a>
                 <a class="link" href="http://example.com/" target="_blank">Home</a>
                 <a class="link" href="http://example.com/" target="_blank">Portfolio</a>
                 <a class="link" href="http://example.com/" target="_blank">Services</a>
@@ -46,6 +47,7 @@
             </div>
         </div>
         </section>
+
         <section class="bg-main partner-container">
             <div class="col">
                 <h2>Partners</h2>
@@ -62,16 +64,17 @@
             </div>
             <a class="btn btn-dark" href="http://example.com/" target="_blank">Learn more</a>
         </section>
-        <section class="bg-main main-container partner-container">
-            <div class="img-col">
-                <img class="main-img" src="img/Group2.svg" alt="Group2">
-            </div>
+        
+        <section class="bg-main main-container partner-container reverse">
             <div class="main-right-col">
                 <h1>Lorem ipsum, dolor sit amet consectetur</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolores illo neque explicabo
                     aperiam ad dolor fugiat labore vero voluptate atque adipisci laboriosam minus laudantium,
                     consectetur in aliquam sed tenetur!</p>
                 <a class="btn btn-dark" href="http://example.com/" target="_blank">Explore</a>
+            </div>
+            <div class="img-col">
+                <img class="main-img" src="img/Group2.svg" alt="Group2">
             </div>
         </section>
         <section class="bg-main main-container partner-container">
@@ -86,6 +89,8 @@
                 <img class="main-img" src="img/Group3.svg" alt="Group3">
             </div>
         </section>
+
+
         <section class="bg-main partner-container">
             <div class="col">
                 <h2>Team</h2>
@@ -122,17 +127,27 @@
                       <p>Developer</p>
                     </div>
                   </div>
-                <!-- <img src="img/Google.svg" alt="Google logo">
-                <img src="img/Microsoft.svg" alt="Microsoft logo">
-                <img src="img/Airbnb.svg" alt="Airbnb logo">
-                <img src="img/Facebook.svg" alt="Facebook logo">
-                <img src="img/Spotify.svg" alt="Spotify logo"> -->
             </div>
             <a class="btn btn-dark" href="http://example.com/" target="_blank">View Team</a>
         </section>
         
-    </main>
 
+    </main>
+    <footer class="footer mobile-footer">
+        <div class="footer-row">
+            <div class="socials">
+                <a href="#fb" target="_blank" class="social fa fa-facebook"></a>
+                <a href="#insta" target="_blank" class="social fa fa-instagram"></a>
+                <a href="#tw" target="_blank" class="social fa fa-twitter"></a>
+                <a href="#pin" target="_blank" class="social fa fa-pinterest"></a>
+                <a href="#wa" target="_blank" class="social fa fa-whatsapp"></a>
+                <a href="#yt" target="_blank" class="social fa fa-youtube"></a>
+            </div>
+            <div>
+                <p class="copyright">&copy; Start, 2022. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

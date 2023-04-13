@@ -1,10 +1,16 @@
+/* 3rd-party */
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
 /* 3rd-party */
-@import '../3rd-party/font-awesome.min.css';
+/* @import '../3rd-party/css/all.min.css';
+@import '../3rd-party/css/font-awesome.min.css'; */
 /* components */
 @import '../components/header.css';
+@import '../components/footer.css';
+@import '../components/mobile.css';
 /* CUSTOM STYLE */
 
 
